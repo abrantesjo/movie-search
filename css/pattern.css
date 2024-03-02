@@ -1,0 +1,113 @@
+html {
+    background-color: #0C0910;  
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0C0910 !important;
+}
+
+/* Estilo para o cabeçalho */
+.header {
+    background-color: #333; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+  }
+  
+  /* Estilo para o título do cabeçalho */
+  .header h1 {
+    margin: 0; /* Remover margens padrão */
+  }
+  
+  /* Estilo para a navegação no cabeçalho */
+  .navbar-nav {
+    margin-left: auto; /* Alinhar itens à direita */
+  }
+  
+  /* Estilo para o link na navegação */
+  .navbar-nav .nav-link {
+    color: #fff; /* Cor do texto */
+    margin-left: 20px; /* Espaçamento entre links */
+  }
+  
+  /* Estilo para o carousel */
+  .carousel-item img {
+    width: 100%; /* Largura total */
+    height: 400px; /* Altura fixa */
+    object-fit: cover; /* Redimensionar imagens para cobrir o elemento */
+  }
+  
+  /* Estilo para a descrição do carousel */
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 0 0 5px 5px; /* Cantos arredondados na parte inferior */
+  }
+  
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    color: white;
+}
+
+.movie-poster {
+    width: 200px;
+}
+
+button {
+    background-color: #A393BF; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mão ao passar por cima */
+    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+}
+
+button:hover {
+    background-color: #73648A; /* Altera a cor de fundo ao passar o mouse */
+}
+
+#moviesList {
+    margin-top: 20px;
+}
+
+.movie-title {
+    color: white;
+}
+
+.movie-resume {
+    color: white;
+}
+
+.movie-rating {
+    color: #9882AC;
+}
+
+.wrap-movie {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.movie-info-left {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.movie-info-right {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
